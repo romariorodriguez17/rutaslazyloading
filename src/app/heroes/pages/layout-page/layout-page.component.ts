@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class LayoutPageComponent {
-
+  public sidebarItems = [
+    { label: 'listado', icon: 'label', url: './list' },
+    { label: 'Buscar', icon: 'search', url: './search' },
+    { label: 'Añadir', icon: 'add', url: './new-hero' }
+  ]
 }
