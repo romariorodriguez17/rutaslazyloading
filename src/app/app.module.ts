@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -18,7 +18,7 @@ import { HttpClientModule, provideHttpClient } from '@angular/common/http';
     HttpClientModule,
   ],
   providers: [
-    provideClientHydration(),
+
     provideAnimationsAsync(),
     provideHttpClient(),
   ],

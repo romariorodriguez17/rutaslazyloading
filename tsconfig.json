@@ -24,6 +24,37 @@
       "dom"
     ]
   },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "types": [
+    "body-parser",
+    "bonjour",
+    "connect",
+    "connect-history-api-fallback",
+    "cookie",
+    "cors",
+    "estree",
+    "express",
+    "express-serve-static-core",
+    "http-errors",
+    "http-proxy",
+    "jasmine",
+    "json-schema",
+    "mime",
+    "mute-stream",
+    "node",
+    "node-forge",
+    "qs",
+    "range-parser",
+    "retry",
+    "send",
+    "serve-index",
+    "serve-static",
+    "sockjs",
+    "wrap-ansi",
+    "ws"
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
